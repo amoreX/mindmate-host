@@ -7,4 +7,4 @@ echo "Unzipping model..."
 unzip -o mental_health_bud.zip -d .
 
 echo "Starting API..."
-uvicorn main:app --host=0.0.0.0 --port=10000
+uvicorn main:app --host=0.0.0.0 --port=$PORT
